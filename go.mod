@@ -12,7 +12,6 @@ require (
 	github.com/gxed/GoEndian v0.0.0-20160916112711-0f5c6873267e // indirect
 	github.com/gxed/eventfd v0.0.0-20160916113412-80a92cca79a8 // indirect
 	github.com/gxed/hashland v0.0.0-20180221191214-d9f6b97f8db2 // indirect
-	github.com/ipfs/go-ipfs v0.4.17
 	github.com/ipfs/go-ipfs-util v1.2.8 // indirect
 	github.com/ipfs/go-log v1.5.7 // indirect
 	github.com/jbenet/go-cienv v0.0.0-20150120210510-1bb1476777ec // indirect

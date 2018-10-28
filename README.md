@@ -1,19 +1,16 @@
-[![Build Status](https://travis-ci.org/igcfs/igcfs.svg?branch=master)](http://travis-ci.org/igcfs/igcfs)
-[![Coverage Status](https://coveralls.io/repos/github/igcfs/igcfs/badge.svg?branch=master)](https://coveralls.io/github/igcfs/igcfs?branch=master) 
-[![GoDoc](https://godoc.org/github.com/igcfs/igcfs?status.png)](https://godoc.org/github.com/igcfs/igcfs) [![Go Report Card](https://goreportcard.com/badge/github.com/igcfs/igcfs)](https://goreportcard.com/report/github.com/igcfs/igcfs)
-[![Maintainability](https://api.codeclimate.com/v1/badges/ded0a502817e2bfc1de8/maintainability)](https://codeclimate.com/github/igcfs/igcfs/maintainability) 
-[![Test Coverage](https://api.codeclimate.com/v1/badges/ded0a502817e2bfc1de8/test_coverage)](https://codeclimate.com/github/igcfs/igcfs/test_coverage)
-[![Project Status](http://img.shields.io/badge/status-alpha-red.svg)]
+[![Build Status](https://travis-ci.org/igcfs/go-igcfs.svg?branch=master)](http://travis-ci.org/igcfs/go-igcfs)
+[![Coverage Status](https://coveralls.io/repos/github/igcfs/go-igcfs/badge.svg?branch=master)](https://coveralls.io/github/igcfs/go-igcfs?branch=master) 
+[![GoDoc](https://godoc.org/github.com/igcfs/go-igcfs?status.png)](https://godoc.org/github.com/igcfs/go-igcfs) [![Go Report Card](https://goreportcard.com/badge/github.com/igcfs/go-igcfs)](https://goreportcard.com/report/github.com/igcfs/go-igcfs)
+[![Maintainability](https://api.codeclimate.com/v1/badges/ded0a502817e2bfc1de8/maintainability)](https://codeclimate.com/github/igcfs/go-igcfs/maintainability) 
+[![Test Coverage](https://api.codeclimate.com/v1/badges/ded0a502817e2bfc1de8/test_coverage)](https://codeclimate.com/github/igcfs/go-igcfs/test_coverage)
+![Project Status](http://img.shields.io/badge/status-alpha-red.svg)
 
 
 # Welcome to IGCFS
 
-IGC For Science is a project to provide an open platform for sharing and processing IGC flight files.
+IGC For Science is a project to provide an open platform for sharing and processing IGC flight files. [International Gliding Commission](https://en.wikipedia.org/wiki/FAI_Gliding_Commission) is the international governing body for the sport of gliding. It is governed by meetings of delegates from national gliding associations. [IGCFS project website](https://igcfs.github.io/about/) is an effort to make sharing, distributing, and processing of gliding flight files easy.
 
-
-## [IGCFS project website](https://igcfs.github.io/about/)
-
-Check the details about the project on the [offcial IGCFS website](https://igcfs.github.io)
+Check the details about the project on the **[offcial IGCFS website](https://igcfs.github.io)** for more details.
 
 
 ## Project status: in development
@@ -24,9 +21,12 @@ Stay tuned.
 
 ## Project modules and dependencies
 
+This project uses code from IPFS project with modifications to restrict it to the IGC files only.
+
+This list is work-in-progress:
 * libp2p: Go implementation of basic p2p networking stack
 * IPFS: Go implementation of IPFS
-* IGC: Go library for processing and managing IGC files
+* IGC: Go library for processing and managing IGC files (originally forked from ezgliding/goigc)
 
 
 ## Contribution
@@ -36,6 +36,7 @@ Any contributions are more than welcome. Clone the project, submit pull requests
 
 ## License
 
-The project is distributed under open source MIT license. See the LICENSE file and AUTHORS for details.
+The project is distributed under open source MIT license. 
+See the LICENSE file and AUTHORS for details.
 
 
